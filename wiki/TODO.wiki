@@ -4,6 +4,17 @@
 
 What remains to be done..
 
+
  _ebu.dev.radiovis.server.CometHandler.java_
 
- Multiple topics by request not implemented
+ * Multiple topics by request not implemented
+
+
+ _ebu.dev.radiovis.server.TopicId.java_
+
+ * Regexp for (drm|amss|hd)
+
+
+ _ebu.dev.radiovis.server.StompProtocol.java_
+
+ * Handle UNSUBSCRIBE messages
