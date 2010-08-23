@@ -44,7 +44,6 @@ public class RadioVisServer {
 		HttpServer cometserver;
 		try {
 			String cometpath = "/comet";
-			int cometport = 8100;
 			cometserver = HttpServer.create(new InetSocketAddress(cometport),0);
 			
 			cometserver.createContext("/comet", new CometHandler(server.topicmanager));
